@@ -18,6 +18,7 @@ class Car extends React.Component{
                 <p>This is a brand {this.state.model},
                 {this.state.Colour}
                  {this.state.brand} car realesd this year {this.state.year}</p>
+                 <h2>This is sravan goud poshamalla</h2> 
                 <button onClick={this.changeColour}>changeColour</button>
             </div>
         )
