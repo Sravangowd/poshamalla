@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.movie-container{
+  display: flex;
+  flex-wrap: nowrap; /* Prevent images from wrapping to the next line */
+  overflow-x: auto; /
+}
+@media screen  {
+  .movie-container{
+    flex: 0 0 auto; /* Prevent each movie container from growing or shrinking */
+    width: 250px; /* Adjust the width as needed */
+    margin-right: 1rem;
+  }
+  
+}
